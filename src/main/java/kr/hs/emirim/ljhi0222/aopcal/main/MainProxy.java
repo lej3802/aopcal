@@ -1,7 +1,7 @@
 package kr.hs.emirim.ljhi0222.aopcal.main;
 
 import kr.hs.emirim.ljhi0222.aopcal.cal.ExeTimeCalculator;
-import kr.hs.emirim.ljhi0222.aopcal.cal.ImpeCalculator;
+import kr.hs.emirim.ljhi0222.aopcal.cal.ImpCalculator;
 import kr.hs.emirim.ljhi0222.aopcal.cal.RecCalculator;
 
 public class MainProxy {
@@ -9,7 +9,7 @@ public class MainProxy {
 	public static void main(String[] args) {
 		int num = 20;
 		ExeTimeCalculator ttCal1 =
-				new ExeTimeCalculator(new ImpeCalculator());;
+				new ExeTimeCalculator(new ImpCalculator());;
 		
 		System.out.println(ttCal1.factorial(num));
 		

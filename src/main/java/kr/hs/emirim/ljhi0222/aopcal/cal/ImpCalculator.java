@@ -1,6 +1,6 @@
 package kr.hs.emirim.ljhi0222.aopcal.cal;
 
-public class ImpeCalculator implements Calculator{
+public class ImpCalculator implements Calculator{
 	@Override
 	public long factorial(long num) {
 		
